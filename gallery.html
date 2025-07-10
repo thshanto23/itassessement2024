@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanvver - Gallery</title>
+    <style>
+      body {
+        margin: 0;
+        background: #1e1e2f;
+        color: #f4f4f4;
+        font-family: "Roboto", sans-serif;
+      }
+      header {
+        background-color: #2d2d44;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header h1 {
+        margin: 0;
+        color: #ffcc00;
+      }
+      nav a {
+        margin: 0 10px;
+        color: #f4f4f4;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #ffcc00;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 2rem;
+        color: #ffcc00;
+      }
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+        padding: 2rem;
+        max-width: 1100px;
+        margin: auto;
+      }
+      .gallery-grid img {
+        width: 100%;
+        border: 4px solid #2d2d44;
+        border-radius: 6px;
+        transition: 0.3s;
+      }
+      .gallery-grid img:hover {
+        border-color: #ffcc00;
+        transform: scale(1.05);
+      }
+      footer {
+        background: #2d2d44;
+        padding: 1rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tanvver</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <h2>Gallery</h2>
+    <section class="gallery-grid">
+      <a href="images/g1.jpg" target="_blank"
+        ><img src="images/g1.jpg" alt="Design 1"
+      /></a>
+      <a href="images/g2.jpg" target="_blank"
+        ><img src="images/g2.jpg" alt="Design 2"
+      /></a>
+      <a href="images/g3.jpg" target="_blank"
+        ><img src="images/g3.jpg" alt="Design 3"
+      /></a>
+      <a href="images/g4.jpg" target="_blank"
+        ><img src="images/g4.jpg" alt="Design 4"
+      /></a>
+      <a href="images/g5.jpg" target="_blank"
+        ><img src="images/g5.jpg" alt="Design 5"
+      /></a>
+      <a href="images/g6.jpg" target="_blank"
+        ><img src="images/g6.jpg" alt="Design 6"
+      /></a>
+    </section>
+    <footer>
+      © 2025 Tanvver |
+      <a href="mailto:tanvver.design@tbc.edu.np" style="color: #ffcc00"
+        >tanvver.design@tbc.edu.np</a
+      >
+    </footer>
+  </body>
+</html>
