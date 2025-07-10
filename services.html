@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanvver - Services</title>
+    <style>
+      body {
+        background-color: #1e1e2f;
+        color: #f4f4f4;
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+      }
+      header {
+        background: #2d2d44;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header h1 {
+        color: #ffcc00;
+        margin: 0;
+      }
+      nav a {
+        color: #f4f4f4;
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        color: #ffcc00;
+      }
+      main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 2rem;
+      }
+      h2 {
+        text-align: center;
+        color: #ffcc00;
+      }
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+      .service-box {
+        background: #2d2d44;
+        padding: 1.5rem;
+        border-left: 6px solid #ffcc00;
+        border-radius: 6px;
+      }
+      .service-box h3 {
+        margin-top: 0;
+        color: #ffcc00;
+      }
+      .service-box p {
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tanvver</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Services Offered</h2>
+      <div class="services-grid">
+        <div class="service-box">
+          <h3>Web Design</h3>
+          <p>
+            Clean, modern layouts optimized for performance and style.
+            Mobile-first, responsive, and tailored to user needs.
+          </p>
+        </div>
+        <div class="service-box">
+          <h3>Interaction Design</h3>
+          <p>
+            Creating intuitive experiences through animation,
+            micro-interactions, and user feedback systems.
+          </p>
+        </div>
+        <div class="service-box">
+          <h3>Consultation</h3>
+          <p>
+            Helping startups and personal brands define their voice, visuals,
+            and digital strategies.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
